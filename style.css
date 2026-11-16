@@ -5,13 +5,13 @@ img {
 }
 
 
-
+a:hover {color: red}
 
 @font-face {
   font-family: "SF Distant Galaxy";
   src: url("SFDistantGalaxy.ttf") format("truetype");
 }
-
+nav {display:flex; justify-content: space-between;}
 
 /* phone */
 body {
@@ -33,3 +33,10 @@ h1 {
 
 }
 
+.row {
+display:flex; flex-direction:column; padding:0px; justify-content:center
+}
+
+@media screen and (min-width:600px) {.row {display: flex; justify-content:center; flex-direction:row;
+  
+}}
